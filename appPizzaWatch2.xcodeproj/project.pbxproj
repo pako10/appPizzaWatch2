@@ -20,6 +20,13 @@
 		028185E51C0BD83800AB5567 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028185E41C0BD83800AB5567 /* ExtensionDelegate.swift */; };
 		028185E71C0BD83800AB5567 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028185E61C0BD83800AB5567 /* NotificationController.swift */; };
 		028185E91C0BD83800AB5567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028185E81C0BD83800AB5567 /* Assets.xcassets */; };
+		028185F91C0BD9BC00AB5567 /* sizeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028185F81C0BD9BC00AB5567 /* sizeController.swift */; };
+		028185FB1C0BD9E200AB5567 /* masaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028185FA1C0BD9E200AB5567 /* masaController.swift */; };
+		028185FD1C0BDB9900AB5567 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028185FC1C0BDB9900AB5567 /* Datos.swift */; };
+		028185FF1C0BDFF400AB5567 /* quesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028185FE1C0BDFF400AB5567 /* quesoController.swift */; };
+		028186011C0BE1B200AB5567 /* cheeseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028186001C0BE1B200AB5567 /* cheeseController.swift */; };
+		028186031C0BE36700AB5567 /* ingredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028186021C0BE36700AB5567 /* ingredientesController.swift */; };
+		028186051C0BE43900AB5567 /* confirmacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028186041C0BE43900AB5567 /* confirmacionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +90,13 @@
 		028185E61C0BD83800AB5567 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		028185E81C0BD83800AB5567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		028185EA1C0BD83800AB5567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028185F81C0BD9BC00AB5567 /* sizeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sizeController.swift; sourceTree = "<group>"; };
+		028185FA1C0BD9E200AB5567 /* masaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = masaController.swift; sourceTree = "<group>"; };
+		028185FC1C0BDB9900AB5567 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		028185FE1C0BDFF400AB5567 /* quesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quesoController.swift; sourceTree = "<group>"; };
+		028186001C0BE1B200AB5567 /* cheeseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cheeseController.swift; sourceTree = "<group>"; };
+		028186021C0BE36700AB5567 /* ingredientesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ingredientesController.swift; sourceTree = "<group>"; };
+		028186041C0BE43900AB5567 /* confirmacionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = confirmacionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +169,13 @@
 				028185E81C0BD83800AB5567 /* Assets.xcassets */,
 				028185EA1C0BD83800AB5567 /* Info.plist */,
 				028185E01C0BD83800AB5567 /* Supporting Files */,
+				028185F81C0BD9BC00AB5567 /* sizeController.swift */,
+				028185FA1C0BD9E200AB5567 /* masaController.swift */,
+				028185FC1C0BDB9900AB5567 /* Datos.swift */,
+				028185FE1C0BDFF400AB5567 /* quesoController.swift */,
+				028186001C0BE1B200AB5567 /* cheeseController.swift */,
+				028186021C0BE36700AB5567 /* ingredientesController.swift */,
+				028186041C0BE43900AB5567 /* confirmacionController.swift */,
 			);
 			path = "appPizzaWatch2 WatchKit Extension";
 			sourceTree = "<group>";
@@ -310,7 +331,14 @@
 			files = (
 				028185E71C0BD83800AB5567 /* NotificationController.swift in Sources */,
 				028185E51C0BD83800AB5567 /* ExtensionDelegate.swift in Sources */,
+				028186011C0BE1B200AB5567 /* cheeseController.swift in Sources */,
+				028185F91C0BD9BC00AB5567 /* sizeController.swift in Sources */,
 				028185E31C0BD83800AB5567 /* InterfaceController.swift in Sources */,
+				028185FB1C0BD9E200AB5567 /* masaController.swift in Sources */,
+				028185FF1C0BDFF400AB5567 /* quesoController.swift in Sources */,
+				028185FD1C0BDB9900AB5567 /* Datos.swift in Sources */,
+				028186031C0BE36700AB5567 /* ingredientesController.swift in Sources */,
+				028186051C0BE43900AB5567 /* confirmacionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
